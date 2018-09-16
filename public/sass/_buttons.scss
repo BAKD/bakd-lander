@@ -1,0 +1,36 @@
+.btn-primary {
+    background-color: rgba(247, 147, 26, 1);
+    border-color: rgba(247, 147, 26, 1);
+    outline: none;
+    box-shadow: 1px 1px 30px -15px rgba(0, 0, 0, .2);
+    font-size: 13px;
+    padding: 10px 40px;
+    border-radius: 500px;
+    font-weight: 700;
+    letter-spacing: 0.025pt;
+    font-family: 'Open Sans';
+    &:hover,
+    &:active,
+    &:focus,
+    &:disabled {
+        background-color: rgba(229, 135, 22, 1) !important;
+        background: rgba(229, 135, 22, 1);
+        border-color: rgba(229, 135, 22, 1);
+        box-shadow: none !important;
+        outline: none !important;
+    }
+}
+
+.btn-primary {
+    &:disabled {
+        background-color: darken(rgba(229, 135, 22, 1), 10%) !important;
+        background: darken(rgba(229, 135, 22, 1), 10%) !important;
+        border-color: darken(rgba(229, 135, 22, 1), 10%) !important;
+        box-shadow: none !important;
+        outline: none !important;
+        opacity: 1 !important;
+        &:hover {
+            cursor: wait !important;
+        }
+    }
+}

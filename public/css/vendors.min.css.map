@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,OAAO,CAAC,6DAAI,CACZ,OAAO,CAAC,oDAAI,CACZ,OAAO,CAAC,sEAAI,CACZ,OAAO,CAAC,qDAAI,CACZ,OAAO,CAAC,mFAAI,CACZ,OAAO,CAAC,uDAAI,CACZ,OAAO,CAAC,6DAAI,CACZ,OAAO,CAAC,0CAAI,CACZ,OAAO,CAAC,yDAAI,CACZ,OAAO,CAAC,mDAAI",
+    "sources": [
+        "../sass/vendors.scss"
+    ],
+    "names": [],
+    "file": "vendors.min.css"
+}
