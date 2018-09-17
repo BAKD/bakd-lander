@@ -23,7 +23,7 @@ setTimeout(function() {
     $('#welcome_preloader').fadeOut();
 }, 2500);
 
-var launchDate = moment.tz("2018-10-5 00:00", "America/New_York");
+var launchDate = moment.tz(moment("2018-10-5 00:00").toISOString(), "America/New_York");
 
 $(window).on('load', function() {
     var labels = ['weeks', 'days', 'hours', 'minutes', 'seconds'],
@@ -33,8 +33,11 @@ $(window).on('load', function() {
         nextDate = '00:00:00:00:00',
         parser = /([0-9]{2})/gi,
         $countdown = $('#alpha-countdown');
+
+
     // Parse countdown string to an object
     function strfobj(str) {
+        var parser = /([0-9]{2})/gi;
         var parsed = str.match(parser),
             obj = {};
         labels.forEach(function(label, i) {
@@ -208,5 +211,5 @@ $(window).on('load', function() {
 
 /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
 particlesJS.load('particles-js', 'js/data/particles.json', function() {
-    console.log('particles.js config loaded');
+    // console.log('particles.js config loaded');
 });
