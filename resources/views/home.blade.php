@@ -111,7 +111,7 @@
                         </li>
                     </ul>
                     <div class="form-inline my-2 my-lg-0">
-                        <a href="https://bakd.me" data-toggle"tooltip" data-title="View The BAKD.me Alpha Development Progress!" class="btn btn-primary my-2 my-sm-0" ><i class="fa fa-edit"></i> VIEW ALPHA PROGRESS!</a>
+                        <a href="https://bakd.me" style="margin: 0 auto;" target="_blank" title="View The BAKD.me Alpha Development Progress!" class="btn btn-primary my-2 my-sm-0" ><i class="fa fa-chart-bar"></i> VIEW ALPHA PROGRESS</a>
                     </div>
                 </div>
                 <div class="mobile-nav-btn-wrapper">
@@ -152,7 +152,7 @@
                 </form>
             </div>
 
-            <div class="social-media-links">
+            <div class="social-media-links" style="padding-bottom: 30px;">
                 <ul>
                     <li class="sm-wrapper sm-icon">
                         <a href="https://twitter.com/BAKDme" target="_blank" alt="Twitter" title="Twitter" data-toggle="tooltip" data-placement="bottom">
@@ -321,14 +321,14 @@
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link" data-target="#donations_modal" data-toggle="modal">
-                            <i class="fa fa-chevron-right"></i> Donate!
+                            <i class="fa fa-chevron-right"></i> Donate
                         </a>
                     </li>
                 </ul>
             </div>
             <div class="mobile-footer">
-                <div class="form-inline my-2 my-lg-0">
-                    <button class="btn btn-primary my-2 my-sm-0" type="button" data-toggle="modal" data-target="#alpha_access_modal"><i class="fa fa-edit"></i> GET ALPHA ACCESS</button>
+                <div class="text-center my-2 my-lg-0">
+                    <a href="https://bakd.me" target="_blank" class="btn btn-primary my-2 my-sm-0"><i class="fa fa-chart-bar"></i> VIEW ALPHA PROGRESS</a>
                 </div>
             </div>
 
