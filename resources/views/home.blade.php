@@ -111,7 +111,7 @@
                         </li>
                     </ul>
                     <div class="form-inline my-2 my-lg-0">
-                        <button class="btn btn-primary my-2 my-sm-0" type="button" data-toggle="modal" data-target="#alpha_access_modal"><i class="fa fa-edit"></i> GET ALPHA ACCESS</button>
+                        <a href="https://bakd.me" data-toggle"tooltip" data-title="View The BAKD.me Alpha Development Progress!" class="btn btn-primary my-2 my-sm-0" ><i class="fa fa-edit"></i> VIEW ALPHA PROGRESS!</button>
                     </div>
                 </div>
                 <div class="mobile-nav-btn-wrapper">
