@@ -4,3 +4,14 @@
     font-size: 15px !important;
     font-weight: 700 !important;
 }
+
+.dropdown-item.position-filled {
+    text-decoration: line-through;
+    pointer-events: none;
+    opacity: 0.9;
+    &:hover,
+    &:active,
+    &:focus {
+        cursor: ban-circle;
+    }
+}
