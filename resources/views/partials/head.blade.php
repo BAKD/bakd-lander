@@ -13,8 +13,8 @@
     <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,700" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Montserrat:300,300i,700" rel="stylesheet" />
     <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,600,300italic" rel="stylesheet">
-    <link href="/css/vendors.min.css" rel="stylesheet" />
-    <link href="/css/bakd.min.css" rel="stylesheet" />
+    <link href="/css/vendors.css" rel="stylesheet" />
+    <link href="/css/bakd.css" rel="stylesheet" />
     <script src="/node_modules/jquery/dist/jquery.js" type="text/javascript"></script>
     <script src="/node_modules/underscore/underscore-min.js" type="text/javascript"></script>
     <script>
