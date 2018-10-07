@@ -15,3 +15,47 @@
         cursor: ban-circle;
     }
 }
+
+#launch-div {
+    padding: 20px 5px 10px;
+
+    h3 {
+        font-weight: 700;
+    }
+
+    h5 {
+        margin: 0;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    a {
+        padding: 10px;
+        color: #ffffff;
+
+        &:hover,
+        &:active,
+        &:focus {
+            transition: all .25s ease;
+        }
+    }
+
+    @media(max-width: 768px) {
+        padding: 8px 5px;
+
+        h3 {
+            font-size: 20px;
+            padding: 0 2px;
+        }
+
+        h5 {
+            padding: 8px 2px;
+            font-size: 14px;
+        }
+
+        a {
+            font-size: 14px;
+        }
+    }
+}
