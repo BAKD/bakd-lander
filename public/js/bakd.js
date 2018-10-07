@@ -23,7 +23,7 @@ setTimeout(function() {
     $('#welcome_preloader').fadeOut();
 }, 2500);
 
-var launchDate = moment.tz(moment("2018-10-5 00:00").toISOString(), "America/New_York");
+var launchDate = moment('2018-10-07T23:45:00-00:00');
 
 $(window).on('load', function() {
     var labels = ['weeks', 'days', 'hours', 'minutes', 'seconds'],
@@ -210,6 +210,6 @@ $(window).on('load', function() {
 });
 
 /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-particlesJS.load('particles-js', 'js/data/particles.json', function() {
-    // console.log('particles.js config loaded');
-});
+// particlesJS.load('particles-js', 'js/data/particles.json', function() {
+//     // console.log('particles.js config loaded');
+// });
