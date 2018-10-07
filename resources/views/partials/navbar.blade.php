@@ -47,9 +47,7 @@
                         Jobs
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            @include('partials.jobs-dropdown')
-                        </div>
+                        @include('partials.jobs-dropdown')
                     </div>
                 </li>
             </ul>
