@@ -108,12 +108,19 @@ $(window).on('load', function() {
 
     $('.mCustomScrollbar').mCustomScrollbar();
 
-    var $subscriberForm = $('.subscriber_form');
+    var $subscriberForm = $('form[name=subscriber_form]');
+    var $subscriberFormFooter = $('form[name=subscriber_form_footer]');
     var $alphaAccessForm = $('#alpha_access_form');
 
     $subscriberForm.on('submit', function(event) {
         event.preventDefault();
         handleNewSubscriber($subscriberForm, false);
+        return false;
+    });
+
+    $subscriberFormFooter.on('submit', function(event) {
+        event.preventDefault();
+        handleNewSubscriber($subscriberFormFooter, false);
         return false;
     });
 
