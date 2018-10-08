@@ -26,7 +26,9 @@ setTimeout(function() {
 var $countdown = $('#alpha-countdown');
 var $countdownTitle = $('#countdown-main-title');
 var $launchDiv = $('#launch-div');
-var launchDate = moment('2018-10-07T23:45:00-00:00');
+
+// Next feature set launch date (1 week sprints)
+var launchDate = moment('2018-10-15T23:45:00-00:00');
 
 $(window).on('load', function() {
 
@@ -106,7 +108,7 @@ $(window).on('load', function() {
 
     $('.mCustomScrollbar').mCustomScrollbar();
 
-    var $subscriberForm = $('#subscriber_form');
+    var $subscriberForm = $('.subscriber_form');
     var $alphaAccessForm = $('#alpha_access_form');
 
     $subscriberForm.on('submit', function(event) {

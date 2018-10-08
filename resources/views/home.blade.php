@@ -12,7 +12,7 @@
         
         @include('partials.navbar')
 
-        <div class="container-fluid info animated fadeIn mCustomScrollbar" style="margin-bottom: 140px; padding-bottom: 600px;">
+        <div class="container-fluid info animated fadeIn mCustomScrollbar">
             <h1 class="animated fadeIn">Building Your <span class="orange">Dream</span> Project<br />Just Got A Little Bit <span class="orange">Easier</span></h1>
             <h2 class="animated fadeIn">Better Yet, Investing Just Got A Little Bit <em>Safer</em></h2>
             <div class="info-slider text-center">
@@ -34,17 +34,29 @@
                     announcements, accounting, and more with the <strong>BAKD</strong> Platform & Social Network!
                 </p>
             </div>
-            @include('partials.newsletter')
+            @include('partials.newsletter', ['formName' => 'subscriber_form'])
             @include('partials.social-icons')
             @include('partials.donations-button')
         </div>
         @include('partials.countdown')
     </header>
-    
+
+    <main>
+            @include('sections.about')
+            @include('sections.roadmap')
+            @include('sections.team')
+            {{--  @include('sections.features-web')  --}}
+            {{--  @include('sections.features-protocol')  --}}
+            {{--  @include('sections.contact')      --}}
+    </main>
+
+    @include('partials.footer')
+
+
     @include('partials.slideout')
     @include('modals.alpha-access')
     @include('modals.donations')
-    @include('partials.javascript')>
+    @include('partials.javascript')
 </body>
 
 </html>

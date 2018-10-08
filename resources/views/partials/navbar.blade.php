@@ -1,4 +1,4 @@
-<nav class="navbar navbar-dark navbar-expand-md navbar-expand-sm navbar-expand-xs animated fadeInDown">
+<nav class="navbar navbar-fixed navbar-dark navbar-expand-md navbar-expand-sm navbar-expand-xs animated fadeInDown">
     <div class="container">
         <a href="https://bakd.io" class="navbar-brand" alt="BAKD.io - Building your dream project just got a little bit easier." title="BAKD.io - Building your dream project just got a little bit easier.">
             <img src="images/logo-white.png" alt="BAKD.io - Building your dream project just got a little bit easier." title="BAKD.io - Building your dream project just got a little bit easier." height="102" width="322" class="bakd-logo nav-logo d-inline-block align-top"

@@ -1,15 +1,16 @@
 body {
-    background-color: #000;
+    background-color: #fff;
     color: #222;
     height: 100%;
     width: 100%;
-    max-height: 100vh;
+    // max-height: 100vh;
     max-width: 100vw;
-    overflow: hidden;
+    // overflow: hidden;
     font-family: 'Open Sans', 'Lato', 'Montserrat', 'Tahoma', 'Verdana';
     letter-spacing: 0.0125pt;
-    border-top: 4px solid rgba(247, 147, 26, 1);
+    overflow-x: hidden;
 }
+
 
 @media(max-width: 425px) {
     .hidden-mobile {
@@ -391,8 +392,8 @@ h6 {
     background-repeat: no-repeat;
     background-position: center center;
     display: block;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
 }
 
 a {
@@ -507,11 +508,6 @@ p {
             }
         }
     }
-}
-
-.mCustomScrollbar {
-    margin-bottom: 140px !important;
-    padding-bottom: 180px !important;
 }
 
 .social-media-links {
@@ -678,11 +674,10 @@ p {
 .info {
     position: relative;
     z-index: 8;
-    padding: 110px 0px 30px 0px;
+    padding: 140px 0px 0px 0px;
     text-align: center;
     display: block;
     width: 100%;
-    height: 100vh;
     h1 {
         font-family: 'Open Sans';
         text-transform: uppercase;
@@ -729,10 +724,12 @@ p {
     text-align: center;
     display: block;
     background-color: rgba(0, 0, 0, 0.35);
+    box-shadow: 1px 1px 40px -10px rgba(0, 0, 0, .25);
     width: 100%;
-    position: absolute;
+    // position: absolute;
     bottom: 0;
     z-index: 10;
+    border-bottom: 1px solid rgba(247, 147, 26, 1);
     border-top: 1px solid rgba(247, 147, 26, 1);
     padding: 20px;
     h2 {
@@ -953,4 +950,79 @@ p {
 
 .countdown-container {
     height: 130px;
+}
+
+
+
+.dev-updates-title {
+    padding: 0px;
+    margin: 0px;
+    font-size: 15px !important;
+    font-weight: 700 !important;
+}
+
+.navbar-fixed {
+    // position: fixed;
+    border-top: 4px solid rgba(247, 147, 26, 1);
+}
+
+.dropdown-item.position-filled {
+    text-decoration: line-through;
+    pointer-events: none;
+    opacity: 0.9;
+    &:hover,
+    &:active,
+    &:focus {
+        cursor: ban-circle;
+    }
+}
+
+.responsive-img {
+    width: 100%; 
+    max-width: 1200px; 
+    height: auto;
+}
+
+#launch-div {
+    padding: 20px 5px 10px;
+
+    h3 {
+        font-weight: 700;
+    }
+
+    h5 {
+        margin: 0;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    a {
+        padding: 10px;
+        color: #ffffff;
+
+        &:hover,
+        &:active,
+        &:focus {
+            transition: all .25s ease;
+        }
+    }
+
+    @media(max-width: 768px) {
+        padding: 8px 5px;
+
+        h3 {
+            font-size: 20px;
+            padding: 0 2px;
+        }
+
+        h5 {
+            padding: 8px 2px;
+            font-size: 14px;
+        }
+
+        a {
+            font-size: 14px;
+        }
+    }
 }
