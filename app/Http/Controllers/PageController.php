@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Http\Request;
+
 class PageController extends Controller
 {
     /**
@@ -40,8 +42,13 @@ class PageController extends Controller
         ]);
     }
 
+    // TODO: Fix the "done at 2am", 2 second contact form
     public function contact(Request $request)
     {
-        dd($request);
+        $message = print_r($request->input(), TRUE);
+        if (mail('support@bakd.io', '[BAKD.io] Contact Form Submitted', $message)) {
+            return response()->json(['sent' => true]);
+        }
+        return response()->json(['sent' => false]);
     }
 }

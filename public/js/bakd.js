@@ -111,6 +111,13 @@ $(window).on('load', function() {
     var $subscriberForm = $('form[name=subscriber_form]');
     var $subscriberFormFooter = $('form[name=subscriber_form_footer]');
     var $alphaAccessForm = $('#alpha_access_form');
+    var $contactForm = $('form[name=contact_form]');
+
+    $contactForm.on('submit', function(event) {
+        event.preventDefault();
+        handleContactFormSubmission($contactForm, false);
+        return false;
+    });
 
     $subscriberForm.on('submit', function(event) {
         event.preventDefault();
@@ -129,6 +136,45 @@ $(window).on('load', function() {
         handleNewSubscriber($alphaAccessForm, true);
         return false;
     });
+
+
+    function handleContactFormSubmission($form, closeModal) {
+        var $submit = $form.find('button[type=submit]');
+        var originalBtnHtml = $submit.html();
+        var preloaderHtml = '<i class="fa fa-spin fa-spinner"></i>';
+
+        $submit.html(preloaderHtml);
+        $submit.prop('disabled', true);
+
+        $.ajax({
+            url: $form.attr('action'),
+            method: $form.attr('method'),
+            data: $form.serializeArray(),
+        }).done(function(response) {
+            if (response && response.sent !== true) {
+                new Noty({
+                    type: 'error',
+                    text: '<i class="fa fa-times-circle"></i> Unable to send message. Please try again or contact us directly at support@bakd.io',
+                }).show();
+                $form.find('input[name=email_address]').focus();
+            } else {
+                new Noty({
+                    type: 'success',
+                    text: '<i class="fa fa-check-circle"></i> Your message was successfully sent!',
+                }).show();
+
+                $form.find('textarea').val('').focus();
+            }
+        }).fail(function() {
+            new Noty({
+                type: 'error',
+                text: '<i class="fa fa-times-circle"></i> Error making request. Please try again or contact an administrator if the problem persists.',
+            }).show();
+        }).always(function() {
+            $submit.html(originalBtnHtml);
+            $submit.prop('disabled', false);
+        });
+    }
 
     function handleNewSubscriber($form, closeModal) {
         var $submit = $form.find('button[type=submit]');

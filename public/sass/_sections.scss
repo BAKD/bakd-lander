@@ -42,11 +42,18 @@
             text-align: center;
             margin: 10px auto;
             max-width: 200px;
-            border-radius: 50%;
-            
+            max-height: 200px;
+            width: 100%;
+            height: auto;
+            border-radius: 500px;
+            -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+            filter: grayscale(100%);
+
             &:hover,
             &:active,
             &:focus {
+                -webkit-filter: unset;
+                filter: unset;
                 transform: scale(1.0125);
                 transition: all .2s ease;
                 border: 2px solid $primary;

@@ -1,7 +1,11 @@
 <section class="section roadmap-section section-lines-bg bg-center bg-contain">
     <div class="container-fluid">
         <div class="col-xs-12">
-                <h1>Roadmap for <strong>2018-2019</strong></h1>
+                <h1>Roadmap for <strong>2018-2019</strong>
+                    <p class="about-tagline text-center">
+                        Follow along and watch us go from startup to mainnet!
+                    </p>
+                </h1>
                 <p>
                     <a href="https://bakd.io/docs/roadmap-eng.png" target="_blank" title="View the BAKD 2018-2019 Roadmap">
                         <img src="/images/transparent-roadmap.png" alt="BAKD 2018-2019 Roadmap" class="roadmap-img responsive-img" />

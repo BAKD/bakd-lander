@@ -1,7 +1,11 @@
 <section class="section roadmap-section section-lines-bg bg-center bg-contain">
     <div class="container">
         <div class="col-xs-12">
-                <h1><strong>BAKD</strong> Pre-Mine Breakdown</h1>
+                <h1><strong>BAKD</strong> Pre-Mine Breakdown
+                    <p class="about-tagline text-center">
+                        Transparency is paramount with all things we do, and how we do them, here at <strong>BAKD</strong>
+                    </p>
+                </h1>
                 <p>
                     <a href="https://bakd.io/docs/premine-breakdown-eng.png" target="_blank" title="View the BAKD Pre-Mine Breakdown">
                         <img src="/images/transparent-premine.png" alt="BAKD Pre-Mine Breakdown" class="responsive-img rounded-border" />
