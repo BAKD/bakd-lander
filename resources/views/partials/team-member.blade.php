@@ -8,11 +8,11 @@
         {{ $bio }}
     </p>
     <div class="social-links">
-        {{--  @forelse ($links as $link)
+        @forelse ($links as $link)
             <a href="{{ $link['url'] }}" target="_blank" alt="{{ $link['name'] }}" title="{{ $link['name'] }}">
                 <i class="fa {{ $link['icon'] }}"></i> {{ $link['name'] }}
             </a>
         @empty
-        @endforelse  --}}
+        @endforelse
     </div>
 </div>

@@ -35,10 +35,11 @@
                         'links' => []
                     ])
 
-                    {{--  EUGENE/PM  --}}
+
+                    {{--  TIMO/MM  --}}
                     @include('partials.team-member', [
-                        'name' => 'Marco Carvalho',
-                        'position' => 'Web & C/C++ Developer',
+                        'name' => 'Timo Güntner',
+                        'position' => 'Marketing Manager',
                         'bio' => '',
                         'avatar' => '/images/team-placeholder.png',
                         'links' => []
@@ -62,10 +63,10 @@
                         'links' => []
                     ])
 
-                    {{--  TIMO/MM  --}}
+                    {{--  MARCO/PROTOCOL DEV  --}}
                     @include('partials.team-member', [
-                        'name' => 'Timo Güntner',
-                        'position' => 'Marketing Lead',
+                        'name' => 'Marco Carvalho',
+                        'position' => 'Web & C/C++ Developer',
                         'bio' => '',
                         'avatar' => '/images/team-placeholder.png',
                         'links' => []
@@ -83,7 +84,7 @@
                     {{--  EMMANUEL/Marketing Help  --}}
                     @include('partials.team-member', [
                         'name' => 'Emmanuel Scott',
-                        'position' => 'Marketing/Community Outreach',
+                        'position' => 'Social Media & Community Outreach',
                         'bio' => '',
                         'avatar' => '/images/team-placeholder.png',
                         'links' => []
@@ -92,19 +93,13 @@
                     {{--  JOSIAH/TW  --}}
                     @include('partials.team-member', [
                         'name' => 'Josiah Makori',
-                        'position' => 'Technical/Content Writer',
+                        'position' => 'Technical & Content Writer',
                         'bio' => '',
                         'avatar' => '/images/team-placeholder.png',
                         'links' => []
                     ])
 
-
                 </div>
-
-
-
-
-
 
             </div>
         </div>
