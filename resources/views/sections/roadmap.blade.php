@@ -4,7 +4,7 @@
                 <h1>Roadmap for <strong>2018-2019</strong></h1>
                 <p>
                     <a href="https://bakd.io/docs/roadmap-eng.png" target="_blank" title="View the BAKD 2018-2019 Roadmap">
-                        <img src="https://bakd.io/docs/roadmap-eng.png" alt="BAKD 2018-2019 Roadmap" class="glow responsive-img hover-scale rounded-border" />
+                        <img src="/images/transparent-roadmap.png" alt="BAKD 2018-2019 Roadmap" class="responsive-img hover-scale rounded-border" />
                     </a>
                 </p>
                 <p class="pt-10">

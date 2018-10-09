@@ -47,7 +47,8 @@
             @include('sections.team')
             {{--  @include('sections.features-web')  --}}
             {{--  @include('sections.features-protocol')  --}}
-            {{--  @include('sections.contact')      --}}
+            @include('sections.pre-mine')
+            @include('sections.contact')    
     </main>
 
     @include('partials.footer')
