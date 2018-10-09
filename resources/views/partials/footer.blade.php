@@ -44,7 +44,7 @@
                         <a href="https://docs.google.com/document/d/1HAFt1VOcWOl4OSGRdHfX7xth2_4aQule0NLLuzrXiyU/edit?usp=sharing" target="_blank">Web Features</a>
                     </li>
                     <li>
-                        <a href="https://drive.google.com/open?id=1Azam6FyWX-MufgpV1CDdVclrR4m71jUTYNJNNo9ML-A" target="_blank">Coin/Protocol Features</a>
+                        <a href="https://drive.google.com/open?id=1Azam6FyWX-MufgpV1CDdVclrR4m71jUTYNJNNo9ML-A" target="_blank">Protocol Features</a>
                     </li>
                 </ul>
             </div>

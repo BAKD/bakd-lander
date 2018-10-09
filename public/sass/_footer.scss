@@ -2,7 +2,7 @@ footer {
     padding: 30px 0px;
     background: #000;
     background-color: #000;
-    opacity: 0.95;
+    // opacity: 0.95;
     color: #fff;
     font-size: 14px;
     border-top: 5px solid $primary;
@@ -64,6 +64,7 @@ footer {
         &:hover,
         &:focus,
         &:active {
+            padding-left: 5px;
             color: $primary;
             transition: all .25s ease;
         }
@@ -85,7 +86,8 @@ footer {
     color: #fff;
     padding: 10px 5px;
     font-size: 13px;
-    // border-top: 1px solid $primary;
+    opacity: 0.99;
+    border-top: 1px solid $primary;
     // border-bottom: 4px solid $primary;
     font-weight: 500;
 

@@ -23,7 +23,9 @@
                         'position' => 'CTO/Co-Founder & Lead Developer',
                         'bio' => '',
                         'avatar' => '/images/team-placeholder.png',
-                        'links' => []
+                        'links' => [
+                            ['icon' => 'fa-linkedin', 'url' => 'www.linkedin.com/in/tgrenier', 'name' => 'LinkedIn']
+                        ]
                     ])
 
                     {{--  EUGENE/PM  --}}
@@ -57,7 +59,7 @@
                     {{--  FRANKLIN/INFOGRAPHICS  --}}
                     @include('partials.team-member', [
                         'name' => 'Franklin Calles',
-                        'position' => 'Designer/Infographics',
+                        'position' => 'Designer & Infographics',
                         'bio' => '',
                         'avatar' => '/images/team-placeholder.png',
                         'links' => []

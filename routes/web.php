@@ -16,6 +16,9 @@ $router->post('subscribe', ['uses' => 'NewsletterController@subscribe', 'as' => 
 // Handle Donations
 $router->post('donate', ['uses' => 'DonationController@donate', 'as' => 'donation.donate']);
 
+// Handle Contact Us Submissions
+$router->post('contact', ['uses' => 'PageController@contact', 'as' => 'contact.send']);
+
 // Generate a random string for use with the app's encryption
 $router->get('/key', function () use ($router) {
     return str_random(32);
