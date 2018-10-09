@@ -8,7 +8,7 @@
                     </a>
                 </p>
                 <p class="pt-10">
-                    <a href="https://bakd.io/docs/premine-breakdown-eng.png" style="margin: 0 auto;" target="_blank" title="View the BAKD Pre-Mine Breakdown" class="btn btn-primary my-2 my-sm-0" ><i class="fa fa-road"></i> VIEW ALPHA ROADMAP</a>
+                    <a href="https://bakd.io/docs/premine-breakdown-eng.png" style="margin: 0 auto;" target="_blank" title="View the BAKD Pre-Mine Breakdown" class="btn btn-primary my-2 my-sm-0" ><i class="fa fa-chart-pie"></i> VIEW PRE-MINE BREAKDOWN</a>
                 </p>
             </div>
         </div>
