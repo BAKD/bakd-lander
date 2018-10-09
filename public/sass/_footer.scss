@@ -5,7 +5,7 @@ footer {
     opacity: 0.95;
     color: #fff;
     font-size: 14px;
-    border-top: 4px solid orange;
+    border-top: 5px solid $primary;
 
     .bakd-icon {
         height: auto;
@@ -14,6 +14,12 @@ footer {
         
         @media(max-width: 768px) {
             margin-top: 20px;
+        }
+    }
+
+    .branding-col {
+        @media(max-width: 992px) {
+            padding-top: 20px;
         }
     }
 
@@ -58,7 +64,7 @@ footer {
         &:hover,
         &:focus,
         &:active {
-            color: orange;
+            color: $primary;
             transition: all .25s ease;
         }
     }
@@ -79,9 +85,8 @@ footer {
     color: #fff;
     padding: 10px 5px;
     font-size: 13px;
-    // border-top: 1px solid orange;
-    // border-top: 1px solid #222;
-    // border-bottom: 4px solid orange;
+    // border-top: 1px solid $primary;
+    // border-bottom: 4px solid $primary;
     font-weight: 500;
 
     a {
@@ -93,7 +98,7 @@ footer {
         &:hover,
         &:focus,
         &:active {
-            color: orange;
+            color: $primary;
             transition: all .25s ease;
         }
     }

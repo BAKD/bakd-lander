@@ -5,11 +5,69 @@
     h1 {
         color: #222;
         margin-bottom: 30px;
+
+        @media(max-width: 768px) {
+            font-size: 24px;
+        }
+    }
+
+    &.section-lines-bg {
+        background-color: #000;
+        background-image: url('/images/overlay-bg.png');
+        border-top: 4px solid $primary;
+        border-bottom: 4px solid $primary;
+        color: #fff;
+
+        h1, h2 {
+            color: #fff;
+        }
+    }
+
+    .glow {
+        -moz-box-shadow: 0 0 40px -20px rgba(255, 255, 255, 0.5);
+        -webkit-box-shadow: 0 0 40px -20px rgba(255, 255, 255, 0.5);
+        box-shadow: 0 0 40px -20px rgba(255, 255, 255, 0.5);
+    }
+
+    .pt-10 {
+        padding-top: 10px;
+    }
+
+    .rounded-border {
+        border-radius: 6px;
+    }
+
+    .hover-scale {
+        &:hover {
+            transform: scale(1.0125);
+            transition: all .20s ease;
+        }
     }
     
+    &.bg-center {
+        background-position: center center;
+    }
+    &.bg-top {
+        background-position: center top;
+    }
+    &.bg-bottom {
+        background-position: center bottom;
+    }
+    &.bg-cover {
+        background-size: cover;
+    }
+    &.bg-contain {
+        background-size: contain;
+    }
+
+
     &.about-section {
         text-align: left;
-    
+
+        .branding-wrapper {
+            margin-bottom: 20px;
+        }
+
         .about-tagline {
             font-size: 12px;
             font-style: italic;
@@ -23,12 +81,10 @@
     }
 
     &.section-primary {
-        border-top: 1px solid orange;
-        border-bottom: 1px solid orange;
+        border-top: 1px solid $primary;
+        border-bottom: 1px solid $primary;
         background: #f5f5f5;
         // opacity: 0.15;
     }
-
-
 
 }

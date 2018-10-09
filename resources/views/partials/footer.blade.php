@@ -3,9 +3,8 @@
 
     <div class="container">
 
-
         <div class="row">
-            <div class="col-lg-3 col-xs-12">
+            <div class="col-lg-3 col-md-4 col-xs-12">
                 <ul class="link-list-wrapper">
                     <li class="header">
                         <i class="fa fa-link"></i> Quick Links
@@ -27,10 +26,10 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-lg-3 col-xs-12">
+            <div class="col-lg-3 col-md-4 col-xs-12">
                 <ul class="link-list-wrapper">
                     <li class="header">
-                        <i class="fa fa-file"></i> Project Docs
+                        <i class="fa fa-list"></i> Project Docs
                     </li>
                     <li>
                         <a href="#" data-toggle="tooltip" data-title="Coming Soon" data-placement="top">Whitepaper</a>
@@ -49,7 +48,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-lg-3 col-xs-12">
+            <div class="col-lg-3 col-md-4 col-xs-12">
                 <ul class="link-list-wrapper">
                     <li class="header">
                         <i class="fa fa-users"></i> Get Involved
@@ -71,8 +70,8 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-lg-3 col-xs-12">
-                <img src="/images/branding/logo_white.png" class="bakd-icon" />
+            <div class="col-lg-3 col-md-12 col-xs-12 branding-col">
+                <img src="/images/branding/logo_white.png" class="bakd-icon" alt="BAKD.io" title="BAKD.io" />
                 <div class="footer-newsletter">
                     @include('partials.newsletter', ['formName' => 'subscriber_form_footer'])
                 </div>

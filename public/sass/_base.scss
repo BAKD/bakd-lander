@@ -96,7 +96,7 @@ h5.modal-title {
     font-size: 28px;
     top: 30%;
     color: #fff;
-    background-color: rgba(247, 147, 26, 1);
+    background-color: $primary;
     box-shadow: 1px 1px 15px -5px rgba(0, 0, 0, 0.25);
     &:hover,
     &:focus {
@@ -187,8 +187,8 @@ h5.modal-title {
     min-height: 100vh;
     max-width: 380px;
     background: #111;
-    // border-top: 4px solid rgba(247, 147, 26, 1);
-    border-left: 1px solid rgba(247, 147, 26, 1);
+    // border-top: 4px solid $primary;
+    border-left: 1px solid $primary;
     top: 0;
     bottom: 0;
     right: -400px;
@@ -211,7 +211,7 @@ h5.modal-title {
         bottom: 0px;
     }
     .mobile-header {
-        // border-bottom: 2px solid rgba(247, 147, 26, 1);
+        // border-bottom: 2px solid $primary;
         // min-height: 280px;
         // height: 20%;
         display: block;
@@ -248,7 +248,7 @@ h5.modal-title {
                 &:hover,
                 &:active,
                 &:focus {
-                    background-color: rgba(247, 147, 26, 1);
+                    background-color: $primary;
                 }
             }
         }
@@ -258,7 +258,7 @@ h5.modal-title {
         text-align: center;
     }
     .dropdown-menu {
-        border-bottom: 3px solid rgba(247, 147, 26, 1);
+        border-bottom: 3px solid $primary;
     }
 }
 
@@ -337,7 +337,7 @@ h5.modal-title {
         }
     }
     .dropdown-menu {
-        border-bottom: 4px solid rgba(247, 147, 26, 1);
+        border-bottom: 4px solid $primary;
         border-radius: 3px;
         width: 235px;
         overflow: hidden;
@@ -355,7 +355,7 @@ h5.modal-title {
         &:active {
             font-weight: 700;
             color: #fff;
-            background-color: rgba(247, 147, 26, 1);
+            background-color: $primary;
         }
         .type {
             font-size: 12px;
@@ -591,7 +591,7 @@ p {
 }
 
 .spinner>div {
-    background-color: rgba(247, 147, 26, 1);
+    background-color: $primary;
     height: 100%;
     width: 6px;
     display: inline-block;
@@ -715,7 +715,7 @@ p {
 }
 
 .orange {
-    color: rgba(247, 147, 26, 1);
+    color: $primary;
 }
 
 .navbar-bottom {
@@ -729,8 +729,8 @@ p {
     // position: absolute;
     bottom: 0;
     z-index: 10;
-    border-bottom: 1px solid rgba(247, 147, 26, 1);
-    border-top: 1px solid rgba(247, 147, 26, 1);
+    border-bottom: 4px solid $primary;
+    border-top: 1px solid $primary;
     padding: 20px;
     h2 {
         padding: 0px 10px 0 10px;
@@ -963,7 +963,7 @@ p {
 
 .navbar-fixed {
     // position: fixed;
-    border-top: 4px solid rgba(247, 147, 26, 1);
+    border-top: 4px solid $primary;
 }
 
 .dropdown-item.position-filled {
