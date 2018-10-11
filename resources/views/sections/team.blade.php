@@ -28,10 +28,10 @@
                         'bio' => '',
                         'avatar' => '/images/team/tom2.jpg',
                         'links' => [
-                            ['icon' => 'twitter.png', 'url' => "https://www.twitter.com/CryptoCoinForum", 'name' => 'Twitter'],
-                            ['icon' => 'linkedin.png', 'url' => "https://www.linkedin.com/in/tgrenier", 'name' => 'LinkedIn'],
-                            ['icon' => 'telegram.png', 'url' => "https://t.me/BAKDme", 'name' => 'Telegram'],
-                            ['icon' => 'github.png', 'url' => "https://www.github.com/tomgren", 'name' => 'GitHub'],
+                            ['icon' => 'twitter.png', 'url' => "https://www.twitter.com/CryptoCoinForum", 'name' => 'Twitter', 'classes' => 'sm-icon'],
+                            ['icon' => 'linkedin.png', 'url' => "https://www.linkedin.com/in/tgrenier", 'name' => 'LinkedIn', 'classes' => 'sm-icon'],
+                            ['icon' => 'telegram.png', 'url' => "https://t.me/BAKDme", 'name' => 'Telegram', 'classes' => 'sm-icon'],
+                            ['icon' => 'github.png', 'url' => "https://www.github.com/tomgren", 'name' => 'GitHub', 'classes' => 'sm-icon'],
                         ]
                     ])
 
@@ -60,7 +60,9 @@
                         'position' => 'Lead Designer',
                         'bio' => '',
                         'avatar' => '/images/team/suyoga.png',
-                        'links' => []
+                        'links' => [
+                            ['icon' => '../../../freelancer-logo.png', 'url' => "https://www.freelancer.com/u/suyogapurwana", 'name' => 'Freelancer.com', 'classes' => 'freelancer-wrapper'],
+                        ]
                     ])
 
                     {{--  FRANKLIN/INFOGRAPHICS  --}}
@@ -68,8 +70,11 @@
                         'name' => 'Franklin Calles',
                         'position' => 'Designer & Infographics',
                         'bio' => '',
-                        'avatar' => '/images/team/franklin.jpg',
-                        'links' => []
+                        'avatar' => '/images/team/franklin2.jpg',
+                        'links' => [
+                            ['icon' => 'linkedin.png', 'url' => "https://www.linkedin.com/in/franklin-calles-b19b47166/", 'name' => 'LinkedIn', 'classes' => 'sm-icon'],
+                            ['icon' => 'behance.png', 'url' => "https://www.behance.net/franklinje645c", 'name' => 'Behance', 'classes' => 'sm-icon'],
+                        ]
                     ])
 
                     {{--  MARCO/PROTOCOL DEV  --}}
@@ -88,18 +93,8 @@
                         'bio' => '',
                         'avatar' => '/images/team/auroboros.jpg',
                         'links' => [
-                            ['icon' => 'linkedin.png', 'url' => "https://www.linkedin.com/in/alimin-alfi-ardhi-hikayah-143651142/", 'name' => 'LinkedIn'],
-                            ['icon' => 'bitcoin.png', 'url' => "https://bitcointalk.org/index.php?action=profile;u=979644", 'name' => 'BitcoinTalk'],
+                            ['icon' => 'linkedin.png', 'url' => "https://www.linkedin.com/in/alimin-alfi-ardhi-hikayah-143651142/", 'name' => 'LinkedIn', 'classes' => 'sm-icon'],
                         ]
-                    ])
-
-                    {{--  EMMANUEL/Marketing Help  --}}
-                    @include('partials.team-member', [
-                        'name' => 'Emmanuel Scott',
-                        'position' => 'Social Media & Community Outreach',
-                        'bio' => '',
-                        'avatar' => '/images/team-placeholder.png',
-                        'links' => []
                     ])
 
                     {{--  JOSIAH/TW  --}}
@@ -109,9 +104,9 @@
                         'bio' => '',
                         'avatar' => '/images/team/josiah.png',
                         'links' => [
-                            ['icon' => 'twitter.png', 'url' => "https://twitter.com/CryptoWriter001 ", 'name' => 'Twitter'],
-                            ['icon' => 'linkedin.png', 'url' => "https://www.linkedin.com/in/josiah-makori-6b43b2125", 'name' => 'LinkedIn'],
-                            ['icon' => 'telegram.png', 'url' => "https://t.me/cryptowriter001", 'name' => 'Telegram']
+                            ['icon' => 'twitter.png', 'url' => "https://twitter.com/CryptoWriter001 ", 'name' => 'Twitter', 'classes' => 'sm-icon'],
+                            ['icon' => 'linkedin.png', 'url' => "https://www.linkedin.com/in/josiah-makori-6b43b2125", 'name' => 'LinkedIn', 'classes' => 'sm-icon'],
+                            ['icon' => 'telegram.png', 'url' => "https://t.me/cryptowriter001", 'name' => 'Telegram', 'classes' => 'sm-icon']
                         ]
                     ])
 
