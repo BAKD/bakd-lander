@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\ContactUsEmail;
 
 class PageController extends Controller
 {
@@ -45,10 +47,13 @@ class PageController extends Controller
     // TODO: Fix the "done at 2am", 2 second contact form
     public function contact(Request $request)
     {
-        $message = print_r($request->input(), TRUE);
-        if (mail('support@bakd.io', '[BAKD.io] Contact Form Submitted', $message)) {
-            return response()->json(['sent' => true]);
+        try {
+            $message = $request->input();
+            Mail::to(env('HELP_EMAIL', 'tom@bakd.io'))->send(new ContactUsEmail($message));
+        } catch (\Exception $e) {
+            return response()->json(['sent' => false]);
         }
-        return response()->json(['sent' => false]);
+    
+        return response()->json(['sent' => true]);
     }
 }

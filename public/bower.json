@@ -1,0 +1,30 @@
+{
+  "name": "bakd",
+  "description": "BAKD.io landing page alpha frontend.",
+  "main": "index.html",
+  "authors": [
+    "Tom Grenier <tom@bakd.io>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "bakd",
+    "cryptocurrency",
+    "investing",
+    "bitcoin",
+    "crowdfunding",
+    "social",
+    "networking"
+  ],
+  "homepage": "https://github.com/BAKD/bakd-lander",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery.countdown": "^2.2.0"
+  }
+}
