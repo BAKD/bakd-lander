@@ -14,16 +14,16 @@
                     </div>
                     <div class="col-lg-8 col-xs-12 about-details">
                         <p>
-                            <strong>BAKD</strong> is a platform for entrepreneurs and projects of any size to network, raise funds, find team members as well as learn -- all in one place -- while they build out their next great idea.
+                            <strong>BAKD</strong> is a platform for entrepreneurs and projects of any size to network, raise funds, find team members, as well as learn -- all in one place while they build out their next great idea.
                         </p>
                         <p>
-                            <strong>BAKD</strong> gives startups not only the capital they need to succeed, but we instill a sense of confidence among our members, all while giving them the tools they need to succeed. All of this is possible by using the BAKD Cryptocurrency Protocol to both invest in campaigns as well as receive campaign disbursements if you are a campaign owner.
+                            <strong>BAKD</strong> not only gives startups the capital they need to succeed, but we instill a sense of confidence among our members, all while providing them the <em>tools</em> they'll need to succeed. All of this is made possible by way of the BAKD Cryptocurrency Protocol. BAKD Coins are used to both invest in campaigns, as well as to pay campaign disbursements to project/campaign owners.
                         </p>
                         <p>
-                            <strong>BAKD</strong> is also a place where investors can feel safe investng in cryptocurrency startups.
-                            They will no longer have to wonder where their money is going, or if projects are really meetng
-                            their deadlines and milestones. If project milestones are not met and the project becomes
-                            abandoned, all remaining investor funds are returned. Invest with <strong>confidence</strong>.
+                            <strong>BAKD</strong> is a place where investors can feel <em>safe</em> investng in cryptocurrency startups.
+                            No longer will we have to wonder where our hard-earned money is going, or if a project is really meetng
+                            it's deadlines and milestones. With <strong>BAKD</strong>, if project milestones are not met, and/or the project becomes
+                            abandoned, all remaining investor funds are returned to the original investor. Invest with <strong>confidence</strong>.
                         </p>
                         <div class="text-center about-links">
                             <p style="padding-top: 10px;">    

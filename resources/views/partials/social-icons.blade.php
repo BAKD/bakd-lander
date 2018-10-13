@@ -15,11 +15,11 @@
                 <img src="/images/icons/social-media-2/png/bitcoin.png" />
             </a>
         </li>
-        <li class="sm-wrapper sm-icon">
+        {{--  <li class="sm-wrapper sm-icon">
             <a href="https://t.me/BAKDio" target="_blank" alt="Telegram" title="Telegram" data-toggle="tooltip" data-placement="bottom">
                 <img src="/images/icons/social-media-2/png/telegram.png" />
             </a>
-        </li>
+        </li>  --}}
         <li class="sm-wrapper sm-icon">
             <a href="https://medium.com/@bakd" target="_blank" alt="Medium" title="Medium" data-toggle="tooltip" data-placement="bottom">
                 <img src="/images/icons/social-media-2/png/medium.png" />
@@ -30,10 +30,10 @@
                 <img src="/images/icons/social-media-2/png/github.png" />
             </a>
         </li>
-        <!--<li class="sm-wrapper sm-icon">
-            <a href="https://www.reddit.com/user/BAKDio" target="_blank" alt="Reddit" title="Reddit" data-toggle="tooltip" data-placement="bottom">
+        {{--  <li class="sm-wrapper sm-icon">
+            <a href="https://www.reddit.com/r/BAKD" target="_blank" alt="Reddit" title="Reddit" data-toggle="tooltip" data-placement="bottom">
                 <img src="/images/icons/social-media-2/png/reddit.png" />
             </a>
-        </li>-->
+        </li>  --}}
     </ul>
 </div>

@@ -11,15 +11,15 @@
                 <form action="{{ route('contact.send') }}" method="POST" name="contact_form" class="form-vertical" id="contact_form">
                     <div class="form-group">
                         <i class="fa fa-user"></i>
-                        <input type="text" name="name"  placeholder="Name" class="form-control" required />
+                        <input type="text" name="name"  placeholder="Name" class="form-control" maxlength="200" required />
                     </div>
                     <div class="form-group">
                         <i class="fa fa-at"></i>
-                        <input type="text" name="email" placeholder="Email Address" class="form-control" required />
+                        <input type="text" name="email" placeholder="Email Address" class="form-control" maxlength="200" required />
                     </div>
                     <div class="form-group">
                         <i class="fa fa-phone"></i>
-                        <input type="text" name="phone" placeholder="Phone Number (Optional)" class="form-control" />
+                        <input type="text" name="phone" placeholder="Phone Number (Optional)" mmaxlength="20" class="form-control" />
                     </div>
                     <div class="form-group">
                         <select name="department" class="form-control">
@@ -32,11 +32,11 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <textarea name="message" class="form-control" rows="10" placeholder="Enter your message..."></textarea>
+                        <textarea name="message" class="form-control" rows="10" placeholder="Enter your message..." minlength="10" maxlength="3000" required></textarea>
                     </div>
-                    <div class="form-group">
+                    <div class="btn-group">
                         <button type="submit" class="btn btn-primary">
-                            Send Message
+                            <i class="fa fa-envelope"></i> SEND MESSAGE
                         </button>
                     </div>
                 </form>
