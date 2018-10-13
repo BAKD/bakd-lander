@@ -66,10 +66,9 @@
                         'bio' => '',
                         'avatar' => '/images/team/suyoga.png',
                         'links' => [
-                            {{--  ['icon' => '../../../freelancer-logo.png', 'url' => "https://www.freelancer.com/u/suyogapurwana", 'name' => 'Freelancer.com', 'classes' => 'freelancer-wrapper'],  --}}
                             ['icon' => 'linkedin.png', 'url' => "https://www.linkedin.com/in/suyoga-purwana-358921172/", 'name' => 'LinkedIn', 'classes' => 'sm-icon'],
                             ['icon' => 'facebook.png', 'url' => "https://web.facebook.com/suyoga.purwana", 'name' => 'Facebook', 'classes' => 'sm-icon'],
-                            ['icon' => 'foursquare.png', 'url' => "https://www.freelancer.com/u/suyogapurwana", 'name' => 'Freelancer.com', 'classes' => 'sm-icon'],
+                            ['icon' => 'freelancer.png', 'url' => "https://www.freelancer.com/u/suyogapurwana", 'name' => 'Freelancer.com', 'classes' => 'sm-icon freelancer-icon'],
                             ['icon' => 'email.png', 'url' => "mailto: suyoga@bakd.io", 'name' => 'Email', 'classes' => 'sm-icon'],
                         ]
                     ])
