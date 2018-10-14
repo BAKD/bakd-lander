@@ -15,13 +15,15 @@ Noty.overrideDefaults({
     }
 });
 
+new WOW().init();
+
 $(function() {
     $('[data-toggle="tooltip"]').tooltip();
 });
 
 setTimeout(function() {
     $('#welcome_preloader').fadeOut();
-}, 2500);
+}, 2800);
 
 var $countdown = $('#alpha-countdown');
 var $countdownTitle = $('#countdown-main-title');

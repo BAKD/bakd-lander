@@ -71,7 +71,7 @@
                 </ul>
             </div>
             <div class="col-lg-3 col-md-12 col-xs-12 branding-col">
-                <img src="/images/branding/logo_white.png" class="bakd-icon" alt="BAKD.io" title="BAKD.io" />
+                <img src="/images/logo-white.png" class="bakd-icon" alt="BAKD.io" title="BAKD.io" />
                 <div class="footer-newsletter">
                     @include('partials.newsletter', ['formName' => 'subscriber_form_footer'])
                 </div>

@@ -1,4 +1,4 @@
-<section class="section team-section">
+<section class="section team-section wow fadeIn">
     <div class="container">
         <div class="col-xs-12">
                 <h1>Meet the <strong>BAKD</strong> Team
@@ -94,32 +94,6 @@
                         'avatar' => '/images/team/marco.jpg',
                         'links' => [
                             ['icon' => 'email.png', 'url' => "mailto: marco@bakd.io", 'name' => 'Email', 'classes' => 'sm-icon'],
-                        ]
-                    ])
-
-                    {{--  AUROBOROS/Social Media  --}}
-                    @include('partials.team-member', [
-                        'name' => 'Alimin Alfi Ardhi Hikayah',
-                        'position' => 'Social Media Manager',
-                        'bio' => '',
-                        'avatar' => '/images/team/auroboros.jpg',
-                        'links' => [
-                            ['icon' => 'linkedin.png', 'url' => "https://www.linkedin.com/in/alimin-alfi-ardhi-hikayah-143651142/", 'name' => 'LinkedIn', 'classes' => 'sm-icon'],
-                            ['icon' => 'email.png', 'url' => "mailto: auroboros@bakd.io", 'name' => 'Email', 'classes' => 'sm-icon'],
-                        ]
-                    ])
-
-                    {{--  JOSIAH/TW  --}}
-                    @include('partials.team-member', [
-                        'name' => 'Josiah Makori',
-                        'position' => 'Technical & Content Writer',
-                        'bio' => '',
-                        'avatar' => '/images/team/josiah.png',
-                        'links' => [
-                            ['icon' => 'twitter.png', 'url' => "https://twitter.com/CryptoWriter001 ", 'name' => 'Twitter', 'classes' => 'sm-icon'],
-                            ['icon' => 'linkedin.png', 'url' => "https://www.linkedin.com/in/josiah-makori-6b43b2125", 'name' => 'LinkedIn', 'classes' => 'sm-icon'],
-                            ['icon' => 'telegram.png', 'url' => "https://t.me/cryptowriter001", 'name' => 'Telegram', 'classes' => 'sm-icon'],
-                            ['icon' => 'email.png', 'url' => "mailto: josiah@bakd.io", 'name' => 'Email', 'classes' => 'sm-icon'],
                         ]
                     ])
 

@@ -5,14 +5,14 @@
 
 <body class="animated fadeIn">
     
-    @include('partials.preloader')
+    @include('partials.preloader-bakd')
 
-    <header class="header jumbotron-wrapper bakd-header">
+    <header class="header jumbotron-wrapper bakd-header wow fadeIn">
         {{--  <div id="particles-js"></div>  --}}
         
         @include('partials.navbar')
 
-        <div class="container-fluid info animated fadeIn mCustomScrollbar">
+        <div class="container-fluid info mCustomScrollbar">
             <h1 class="animated fadeIn">Building Your <span class="orange">Dream</span> Project<br />Just Got A Little Bit <span class="orange">Easier</span></h1>
             <h2 class="animated fadeIn">Better Yet, Investing Just Got A Little Bit <em>Safer</em></h2>
             <div class="info-slider text-center">

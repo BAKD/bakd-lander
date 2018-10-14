@@ -1,4 +1,4 @@
-<section class="section about-section">
+<section class="section about-section wow fadeIn">
         <div class="container">
                 <div class="row">
         <div class="col-xs-12">

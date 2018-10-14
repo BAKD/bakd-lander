@@ -1,4 +1,4 @@
-<div class="navbar-bottom animated fadeInUp">
+<div class="navbar-bottom">
     <h2 id="countdown-main-title" class="animated fadeInDown"><i class="fa fa-clock"></i> <span class="hidden-mobile">Countdown to next </span><span class="orange">Alpha</span> Feature Set Launch</h2>
     
     <div class="launch-news-wrapper" id="launch-div" style="display: none;">
@@ -13,7 +13,7 @@
         </h5>
     </div>
     
-    <div class="alpha-countdown">
+    <div class="alpha-countdown animated fadeIn">
         <div class="countdown-container unselectable" id="alpha-countdown"></div>
     </div>
     <script type="text/template" id="alpha-countdown-template">

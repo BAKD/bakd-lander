@@ -1,7 +1,6 @@
-<section class="section contact-section">
-        <div class="container">
-
-    <div class="col-xs-12">
+<section class="section contact-section wow fadeIn">
+    <div class="container">
+        <div class="col-xs-12">
             <h1>Get In Touch With <strong>BAKD</strong>
                 <p class="about-tagline text-center">
                     Send us any inquiries you may have and we'll get back to you ASAP
@@ -43,5 +42,5 @@
             </div>
         </div>
     </div>
-    </div>
+</div>
 </section>

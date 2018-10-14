@@ -6,6 +6,9 @@ footer {
     color: #fff;
     font-size: 14px;
     border-top: 5px solid $primary;
+    background-image: url('../images/footer-bg-sm.png');
+    background-size: cover;
+    background-blend-mode: lighten;
 
     .bakd-icon {
         height: auto;

@@ -1,4 +1,4 @@
-<section class="section roadmap-section section-lines-bg bg-center bg-contain">
+<section class="section roadmap-section section-lines-bg bg-center bg-contain wow fadeIn">
     <div class="container">
         <div class="col-xs-12">
                 <h1><strong>BAKD</strong> Pre-Mine Breakdown
