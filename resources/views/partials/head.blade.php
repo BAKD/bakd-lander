@@ -8,7 +8,7 @@
     <meta name="keywords" content="crypto, cryptocurrency, bitcoin, ethereum, ico, token, token sale, bakd, bakdme, bakdio, blockchain, localbitcoins, kraken, bitmex, coinbase, whitepaper, crowdfunding, crowdsource, advisors, funding, investors, invest, social, networking, social network"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="og:image" content="/images/icon.png" />
+    <meta name="og:image" content="/images/branding/logo.jpg" />
     <link href="//fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,700" rel="stylesheet">
