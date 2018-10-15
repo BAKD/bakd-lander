@@ -28,9 +28,9 @@
                         'bio' => '',
                         'avatar' => '/images/team/tom2.jpg',
                         'links' => [
-                            {{--  ['icon' => 'twitter.png', 'url' => "https://www.twitter.com/CryptoCoinForum", 'name' => 'Twitter', 'classes' => 'sm-icon'],  --}}
                             ['icon' => 'linkedin.png', 'url' => "https://www.linkedin.com/in/tgrenier", 'name' => 'LinkedIn', 'classes' => 'sm-icon'],
-                            ['icon' => 'telegram.png', 'url' => "https://t.me/BAKDme", 'name' => 'Telegram', 'classes' => 'sm-icon'],
+                            ['icon' => 'twitter.png', 'url' => "https://www.twitter.com/CryptoCoinForum", 'name' => 'Twitter', 'classes' => 'sm-icon'],
+                            {{--  ['icon' => 'telegram.png', 'url' => "https://t.me/BAKDme", 'name' => 'Telegram', 'classes' => 'sm-icon'],  --}}
                             ['icon' => 'github.png', 'url' => "https://www.github.com/tomgren", 'name' => 'GitHub', 'classes' => 'sm-icon'],
                             ['icon' => 'email.png', 'url' => "mailto: tom@bakd.io", 'name' => 'Email', 'classes' => 'sm-icon'],
                         ]
