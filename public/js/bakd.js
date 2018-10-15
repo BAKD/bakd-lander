@@ -15,100 +15,39 @@ Noty.overrideDefaults({
     }
 });
 
-new WOW().init();
-
-$(function() {
-    $('[data-toggle="tooltip"]').tooltip();
-});
-
 setTimeout(function() {
     $('#welcome_preloader').fadeOut();
-}, 2800);
+}, 4000);
 
-var $countdown = $('#alpha-countdown');
-var $countdownTitle = $('#countdown-main-title');
-var $launchDiv = $('#launch-div');
+$(function() {
+    new WOW().init();
 
-// Next feature set launch date (1 week sprints)
-var launchDate = moment('2018-10-15T23:45:00-00:00');
+    // Main content text slider
+    $(".info-slider").slick({
+        infinite: true,
+        slidesToShow: 1,
+        autoplay: true,
+        speed: 700,
+        swipe: true,
+        slidesToScroll: 1,
+        fade: true,
+        arrows: false,
+        swipeToSlide: true,
+        autoplaySpeed: 5000,
+        centerPadding: '0px',
+    });
 
-$(window).on('load', function() {
-
-    if (moment(launchDate).isAfter(moment())) {
-        console.log('Currently before the specified launch date for this feature set. Showing launch countdown.');
-        
-        var labels = ['weeks', 'days', 'hours', 'minutes', 'seconds'],
-            nextYear = launchDate.toDate(),
-            template = _.template($('#alpha-countdown-template').html()),
-            currDate = '00:00:00:00:00',
-            nextDate = '00:00:00:00:00',
-            parser = /([0-9]{2})/gi;
-
-
-        // Parse countdown string to an object
-        function strfobj(str) {
-            var parser = /([0-9]{2})/gi;
-            var parsed = str.match(parser),
-                obj = {};
-            labels.forEach(function(label, i) {
-                obj[label] = parsed[i]
-            });
-            return obj;
+    $('.lazy').Lazy({
+        placeholder: "data:image/gif;base64,R0lGODlhEALAPQAPzl5uLr9Nrl8e7...",
+        scrollDirection: 'vertical',
+        effect: 'fadeIn',
+        visibleOnly: true,
+        onError: function(element) {
+            console.log('Unable to load the following image: ' + element.data('src'));
         }
-        // Return the time components that diffs
-        function diff(obj1, obj2) {
-            var diff = [];
-            labels.forEach(function(key) {
-                if (obj1[key] !== obj2[key]) {
-                    diff.push(key);
-                }
-            });
-            return diff;
-        }
-        // Build the layout
-        var initData = strfobj(currDate);
-        labels.forEach(function(label, i) {
-            $countdown.append(template({
-                curr: initData[label],
-                next: initData[label],
-                label: label
-            }));
-        });
-        // Starts the countdown
-        $countdown.countdown(nextYear, function(event) {
-            var newDate = event.strftime('%w:%d:%H:%M:%S'),
-                data;
-            if (newDate !== nextDate) {
-                currDate = nextDate;
-                nextDate = newDate;
-                // Setup the data
-                data = {
-                    'curr': strfobj(currDate),
-                    'next': strfobj(nextDate)
-                };
-                // Apply the new values to each node that changed
-                diff(data.curr, data.next).forEach(function(label) {
-                    var selector = '.%s'.replace(/%s/, label),
-                        $node = $countdown.find(selector);
-                    // Update the node
-                    $node.removeClass('flip');
-                    $node.find('.curr').text(data.curr[label]);
-                    $node.find('.next').text(data.next[label]);
-                    // Wait for a repaint to then flip
-                    _.delay(function($node) {
-                        $node.addClass('flip');
-                    }, 50, $node);
-                });
-            }
-        });
-    } else {
-        console.log('Currently after the specified launch date for this feature set. Showing launch div.');
-        $launchDiv.show();
-        $countdownTitle.hide();
-        $countdown.hide();
-    }
+    });
 
-    $('.mCustomScrollbar').mCustomScrollbar();
+    $('[data-toggle="tooltip"]').tooltip();
 
     var $subscriberForm = $('form[name=subscriber_form]');
     var $subscriberFormFooter = $('form[name=subscriber_form_footer]');
@@ -138,7 +77,6 @@ $(window).on('load', function() {
         handleNewSubscriber($alphaAccessForm, true);
         return false;
     });
-
 
     function handleContactFormSubmission($form, closeModal) {
         var $submit = $form.find('button[type=submit]');
@@ -222,20 +160,6 @@ $(window).on('load', function() {
         });
     }
 
-    // Main content text slider
-    $(".info-slider").slick({
-        infinite: true,
-        slidesToShow: 1,
-        autoplay: true,
-        speed: 700,
-        swipe: true,
-        slidesToScroll: 1,
-        fade: true,
-        arrows: false,
-        swipeToSlide: true,
-        autoplaySpeed: 5000,
-        centerPadding: '0px',
-    });
 
     $('.modal').on('shown.bs.modal', function(event) {
         closeSlideout();

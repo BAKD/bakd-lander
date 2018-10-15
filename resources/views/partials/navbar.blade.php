@@ -1,7 +1,11 @@
-<nav class="navbar navbar-fixed navbar-dark navbar-expand-md navbar-expand-sm navbar-expand-xs animated fadeInDown">
+@if ($dark)
+    <nav style="background-color: #000;" class="navbar navbar-fixed navbar-dark navbar-expand-md navbar-expand-sm navbar-expand-xs animated fadeInDown">
+@else
+    <nav class="navbar navbar-fixed navbar-dark navbar-expand-md navbar-expand-sm navbar-expand-xs animated fadeInDown">
+@endif
     <div class="container">
         <a href="https://bakd.io" class="navbar-brand" alt="BAKD.io - Building your dream project just got a little bit easier." title="BAKD.io - Building your dream project just got a little bit easier.">
-            <img src="images/logo-white.png" alt="BAKD.io - Building your dream project just got a little bit easier." title="BAKD.io - Building your dream project just got a little bit easier." height="102" width="322" class="bakd-logo nav-logo d-inline-block align-top"
+            <img src="/images/logo-white.png" alt="BAKD.io - Building your dream project just got a little bit easier." title="BAKD.io - Building your dream project just got a little bit easier." height="102" width="322" class="bakd-logo nav-logo d-inline-block align-top"
             />
         </a>
         <div class="collapse inline form-inline navbar-collapse" id="navbarSupportedContent">

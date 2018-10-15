@@ -8,7 +8,7 @@
                 </h1>
                 <p>
                     <a href="https://bakd.io/docs/premine-breakdown-eng.png" target="_blank" title="View the BAKD Pre-Mine Breakdown">
-                        <img src="/images/transparent-premine.png" alt="BAKD Pre-Mine Breakdown" class="responsive-img rounded-border" />
+                        <img data-src="/images/transparent-premine.png" alt="BAKD Pre-Mine Breakdown" class="responsive-img rounded-border lazy" />
                     </a>
                 </p>
                 <p class="pt-10">

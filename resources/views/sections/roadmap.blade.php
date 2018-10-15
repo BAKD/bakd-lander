@@ -8,7 +8,7 @@
                 </h1>
                 <p>
                     <a href="https://bakd.io/docs/roadmap-eng.png" target="_blank" title="View the BAKD 2018-2019 Roadmap">
-                        <img src="/images/transparent-roadmap.png" alt="BAKD 2018-2019 Roadmap" class="roadmap-img responsive-img" />
+                        <img data-src="/images/transparent-roadmap.png" alt="BAKD 2018-2019 Roadmap" class="roadmap-img responsive-img lazy" />
                     </a>
                 </p>
                 <p class="pt-10">

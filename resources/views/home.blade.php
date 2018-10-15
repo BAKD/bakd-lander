@@ -7,12 +7,12 @@
     
     @include('partials.preloader-bakd')
 
-    <header class="header jumbotron-wrapper bakd-header wow fadeIn">
+    <header class="header jumbotron-wrapper bakd-header">
         {{--  <div id="particles-js"></div>  --}}
         
-        @include('partials.navbar')
+        @include('partials.navbar', ['dark' => false])
 
-        <div class="container-fluid info mCustomScrollbar">
+        <div class="container-fluid info">
             <h1 class="animated fadeIn">Building Your <span class="orange">Dream</span> Project<br />Just Got A Little Bit <span class="orange">Easier</span></h1>
             <h2 class="animated fadeIn">Better Yet, Investing Just Got A Little Bit <em>Safer</em></h2>
             <div class="info-slider text-center">

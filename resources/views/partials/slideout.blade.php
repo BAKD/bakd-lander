@@ -14,7 +14,7 @@
             <ul class="link-list">
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Onepager
+                            <i class="fa fa-chevron-right"></i> Onepager
                         </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item disabled" data-toggle="tooltip" data-placement="right" title="Coming Soon" href="#">Version 0.0.1a <span class="type">(Graphic)</span></a>
@@ -23,7 +23,7 @@
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Roadmap
+                            <i class="fa fa-chevron-right"></i> Roadmap
                         </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" data-toggle="tooltip" data-placement="right" title="NEW!" href="{{ $roadmap['graphic'] }}" target="_blank">Version 0.0.2a <span class="type">(Graphic)</span></a>
@@ -32,7 +32,7 @@
                 </li>
                 <li class="nav-item features dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Features
+                            <i class="fa fa-chevron-right"></i> Features
                         </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="https://docs.google.com/document/d/1HAFt1VOcWOl4OSGRdHfX7xth2_4aQule0NLLuzrXiyU/edit?usp=sharing">Website Features (Version 1.0.1a)</a>
@@ -41,7 +41,7 @@
                 </li>
                 <li class="nav-item whitepaper dropdown">
                     <a class="nav-link disabled dropdown-toggle" title="Coming Soon" data-toggle="tooltip" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Whitepaper
+                            <i class="fa fa-chevron-right"></i> Whitepaper
                         </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#">Version 0.0.1a <span class="type">(Graphic)</span></a>

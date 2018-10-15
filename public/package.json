@@ -32,6 +32,7 @@
         "flipclock": "^0.8.2",
         "fontawesome": "^4.7.2",
         "jquery": "^3.3.1",
+        "jquery-lazy": "^1.7.10",
         "malihu-custom-scrollbar-plugin": "^3.1.5",
         "moment": "^2.22.2",
         "moment-timezone": "^0.5.21",

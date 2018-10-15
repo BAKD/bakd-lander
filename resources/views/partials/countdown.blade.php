@@ -26,3 +26,6 @@
         </div>
     </script>
 </div>
+<script src="/node_modules/moment/min/moment-with-locales.min.js" type="text/javascript"></script>
+<script src="/bower_components/jquery.countdown/dist/jquery.countdown.min.js" type="text/javascript"></script>
+<script src="/js/countdown.js" type="text/javascript"></script>

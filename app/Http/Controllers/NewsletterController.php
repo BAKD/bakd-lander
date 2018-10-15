@@ -61,11 +61,53 @@ class NewsletterController extends Controller
             $status = 'error';
             $_data = $e;
         }
-     
-        return response()->json([
-            'status'  => $status, 
-            'message' => $message,
-            'db'      => $_data,
+        
+        if ($request->ajax()) {
+            return response()->json([
+                'status'  => $status, 
+                'message' => $message,
+                'db'      => $_data,
+            ]);
+        }
+
+        return redirect()->route('newsletter.thanks');
+    }
+
+    /**
+     * Newsletter Thank You GET endpoint
+     *
+     * @param  Request  $request
+     * @return Response
+
+     */
+    public function thanks(Request $request) 
+    {
+        // Onepager Doc URLs
+        $onepagerTextURL = 'https://bakd.io/docs/onepager-eng.pdf';
+        $onepagerGraphicURL = 'https://bakd.io/docs/onepager-eng.pdf';
+        
+        // Roadmap Doc URLs
+        $roadmapTextURL = 'https://bakd.io/docs/roadmap-eng.pdf';
+        $roadmapGraphicURL = 'https://bakd.io/docs/roadmap-eng.png';
+        
+        // Features Doc URLs
+        $featuresTextURL = 'https://bakd.io/docs/features-eng.pdf';
+        $featuresGraphicURL = 'https://bakd.io/docs/features-eng.pdf';
+
+        return view('newsletter.thanks', [
+            'launch' => \Carbon\Carbon::now(),
+            'features' => [
+                'text' => $featuresTextURL,
+                'graphic' => $featuresGraphicURL
+            ],
+            'onepager' => [
+                'text' => $onepagerTextURL,
+                'graphic' => $onepagerGraphicURL
+            ],
+            'roadmap' => [
+                'text' => $roadmapTextURL,
+                'graphic' => $roadmapGraphicURL
+            ],
         ]);
     }
 }

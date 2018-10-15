@@ -12,6 +12,7 @@ $router->get('/', ['uses' => 'PageController@index', 'as' => 'home']);
 
 // Handle Newsletter Subscribers
 $router->post('subscribe', ['uses' => 'NewsletterController@subscribe', 'as' => 'newsletter.subscribe']);
+$router->get('newsletter/thanks', ['uses' => 'NewsletterController@thanks', 'as' => 'newsletter.thanks']);
 
 // Handle Donations
 $router->post('donate', ['uses' => 'DonationController@donate', 'as' => 'donation.donate']);

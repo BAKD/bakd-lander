@@ -10,7 +10,7 @@
             </h1>
                 <div class="row about-wrapper">
                     <div class="col-lg-4 col-xs-12 text-center branding-wrapper">
-                        <img src="https://bakd.me/images/branding/icon.png" alt="BAKD ICO Management &amp; Networking Platform" title="BAKD ICO Management &amp; Networking Platform" class="about-branding">
+                        <img data-src="/images/icon.png" alt="BAKD ICO Management &amp; Networking Platform" title="BAKD ICO Management &amp; Networking Platform" class="about-branding lazy">
                     </div>
                     <div class="col-lg-8 col-xs-12 about-details">
                         <p>
