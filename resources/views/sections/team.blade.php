@@ -110,6 +110,7 @@
                         'bio' => '',
                         'avatar' => '/images/team-placeholder.png',
                         'links' => [
+                            ['icon' => 'linkedin.png', 'url' => "https://www.linkedin.com/in/gutenberg-1914a7159/", 'name' => 'LinkedIn', 'classes' => 'sm-icon'],
                             ['icon' => 'email.png', 'url' => "mailto: gb@bakd.io", 'name' => 'Email', 'classes' => 'sm-icon'],
                         ]
                     ])
