@@ -25,7 +25,7 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="{{ $roadmap['graphic'] }}" target="_blank">Version 0.0.2a <span class="type">(Graphic)</span></a>
-                        <a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1YNkjUePG6YPQydSf3YQPIPDhUQJ9f56XkDwbk2gaNLA/edit?usp=sharing" target="_blank" title="UPDATED!" data-toggle="tooltip" data-placement="right">Version 1.0.2 <span class="type">(Text)</span></a>
+                        <a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1YNkjUePG6YPQydSf3YQPIPDhUQJ9f56XkDwbk2gaNLA/edit?usp=sharing" target="_blank" title="UPDATED!" data-toggle="tooltip" data-placement="right">Version 1.0.4 <span class="type">(Text)</span></a>
                     </div>
                 </li>
                 <li class="nav-item features dropdown">
