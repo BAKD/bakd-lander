@@ -32,6 +32,19 @@ canvas {
     opacity: 0.35;
 }
 
+.bakd-preloader-v2 {
+    position: absolute;
+    top: 50%;
+    z-index: 99999;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    margin:-40px 0 0 -40px;
+    // -webkit-animation:spin 2.5s linear infinite;
+    // -moz-animation:spin 2.5s linear infinite;
+    // animation:spin 2.5s linear infinite;
+}
+
 .bakd-preloader {
     position: absolute;
     top: 50%;
@@ -40,9 +53,9 @@ canvas {
     width: 80px;
     height: 80px;
     margin:-40px 0 0 -40px;
-    -webkit-animation:spin 4s linear infinite;
-    -moz-animation:spin 4s linear infinite;
-    animation:spin 4s linear infinite;
+    -webkit-animation:spin 2.25s linear infinite;
+    -moz-animation:spin 2.25s linear infinite;
+    animation:spin 2.25s linear infinite;
 }
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }

@@ -41,7 +41,7 @@ $(function() {
         placeholder: "data:image/gif;base64,R0lGODlhEALAPQAPzl5uLr9Nrl8e7...",
         scrollDirection: 'vertical',
         effect: 'fadeIn',
-        visibleOnly: true,
+        visibleOnly: false,
         onError: function(element) {
             console.log('Unable to load the following image: ' + element.data('src'));
         }

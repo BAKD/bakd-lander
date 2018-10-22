@@ -2,8 +2,8 @@ var $countdown = $('#alpha-countdown');
 var $countdownTitle = $('#countdown-main-title');
 var $launchDiv = $('#launch-div');
 
-// Next feature set launch date (1 week sprints)
-var launchDate = moment('2018-10-15T23:45:00-00:00');
+// Next feature set launch date (2 week sprints)
+var launchDate = moment('2018-11-01T23:45:00-00:00');
 
 $(window).on('load', function() {
     if (moment(launchDate).isAfter(moment())) {

@@ -41,8 +41,9 @@
                         'name' => 'Eugene Chernyshov',
                         'position' => 'Lead Project Manager',
                         'bio' => '',
-                        'avatar' => '/images/team-placeholder.png',
+                        'avatar' => '/images/team/eugene.jpg',
                         'links' => [
+                            ['icon' => 'linkedin.png', 'url' => "https://www.linkedin.com/in/eugenechernyshov/", 'name' => 'LinkedIn', 'classes' => 'sm-icon'],
                             ['icon' => 'email.png', 'url' => "mailto: eugene@bakd.io", 'name' => 'Email', 'classes' => 'sm-icon'],
                         ]
                     ])
@@ -55,6 +56,8 @@
                         'bio' => '',
                         'avatar' => '/images/team-placeholder.png',
                         'links' => [
+                            ['icon' => 'linkedin.png', 'url' => "https://www.linkedin.com/in/timoguentner/", 'name' => 'LinkedIn', 'classes' => 'sm-icon'],
+                            ['icon' => 'twitter.png', 'url' => "https://twitter.com/timoguentner", 'name' => 'Twitter', 'classes' => 'sm-icon'],
                             ['icon' => 'email.png', 'url' => "mailto: timo@bakd.io", 'name' => 'Email', 'classes' => 'sm-icon'],
                         ]
                     ])
@@ -86,14 +89,14 @@
                         ]
                     ])
 
-                    {{--  MARCO/PROTOCOL DEV  --}}
+                    {{--  CASEY G/PROTOCOL DEV  --}}
                     @include('partials.team-member', [
-                        'name' => 'Marco Carvalho',
-                        'position' => 'Web & C/C++ Developer',
+                        'name' => 'Casey Gardiner',
+                        'position' => 'Blockchain Developer',
                         'bio' => '',
-                        'avatar' => '/images/team/marco.jpg',
+                        'avatar' => '/images/team-placeholder.png',
                         'links' => [
-                            ['icon' => 'email.png', 'url' => "mailto: marco@bakd.io", 'name' => 'Email', 'classes' => 'sm-icon'],
+                            ['icon' => 'email.png', 'url' => "mailto: casey@bakd.io", 'name' => 'Email', 'classes' => 'sm-icon'],
                         ]
                     ])
 
