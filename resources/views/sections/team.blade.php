@@ -94,9 +94,23 @@
                         'name' => 'Casey Gardiner',
                         'position' => 'Blockchain Developer',
                         'bio' => '',
+                        'avatar' => '/images/team/casey-gardiner-sm.jpg',
+                        'links' => [
+                            ['icon' => 'linkedin.png', 'url' => "https://www.linkedin.com/in/caseygardiner/", 'name' => 'LinkedIn', 'classes' => 'sm-icon'],
+                            ['icon' => 'github.png', 'url' => "https://www.github.com/blockide", 'name' => 'GitHub', 'classes' => 'sm-icon'],
+                            ['icon' => 'email.png', 'url' => "mailto: casey@bakd.io", 'name' => 'Email', 'classes' => 'sm-icon'],
+                        ]
+                    ])
+
+
+                    {{--  GUTENBERG B./SOCIAL MEDIA  --}}
+                    @include('partials.team-member', [
+                        'name' => 'Gutenberg B.',
+                        'position' => 'Social Media Manager',
+                        'bio' => '',
                         'avatar' => '/images/team-placeholder.png',
                         'links' => [
-                            ['icon' => 'email.png', 'url' => "mailto: casey@bakd.io", 'name' => 'Email', 'classes' => 'sm-icon'],
+                            ['icon' => 'email.png', 'url' => "mailto: gb@bakd.io", 'name' => 'Email', 'classes' => 'sm-icon'],
                         ]
                     ])
 

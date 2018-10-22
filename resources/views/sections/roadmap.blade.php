@@ -13,7 +13,7 @@
                 </p>
                 <p class="pt-10">
                     <a href="https://docs.google.com/spreadsheets/d/1YNkjUePG6YPQydSf3YQPIPDhUQJ9f56XkDwbk2gaNLA/edit?usp=sharing" style="margin: 0 auto;" target="_blank" title="View the BAKD 2018-2019 Roadmap" class="btn btn-primary my-2 my-sm-0" ><i class="fa fa-road"></i> VIEW ALPHA ROADMAP</a>
-                </p>
+</p>
             </div>
         </div>
     </div>
